@@ -1,0 +1,1 @@
+cv_lsvm is my function to perform K-fold cross-validation using linear SVM. To use it you just need to put the X matrix. the Y matrix, the number of fold, the range of parameters and the method option describing the loss function to it, and it will return you with a matrix of the cv error for every parameter in each fold.
